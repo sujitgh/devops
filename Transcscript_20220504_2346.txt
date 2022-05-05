@@ -1,0 +1,129 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220504234630
+Username: dev\adadmin
+RunAs User: dev\adadmin
+Machine: azanfwinvm (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -File C:\temp\FIO_Tests.ps1
+Process ID: 8684
+PSVersion: 5.1.14393.5066
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.5066
+BuildVersion: 10.0.14393.5066
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\temp\FIOResults\Transcscript_20220504_2346.txt
+Starting read ramp up test for the ultra1 blocksize 4k at 20220504_2346
+Job number 1 started at 20220504_2346
+Jobs: 1 (f=0): [f(1)][100.0%][r=318MiB/s][r=81.3k IOPS][eta 00m:00s]
+Job number 2 started at 20220504_2347
+Jobs: 1 (f=0): [_(1),f(1)][100.0%][r=218MiB/s][r=55.7k IOPS][eta 00m:00s]
+Job number 3 started at 20220504_2349
+Jobs: 1 (f=0): [_(2),f(1)][100.0%][r=294MiB/s][r=75.2k IOPS][eta 00m:00s]
+Job number 4 started at 20220504_2351
+Jobs: 1 (f=0): [_(3),f(1)][100.0%][r=182MiB/s][r=46.6k IOPS][eta 00m:00s]
+Job number 5 started at 20220504_2354
+Jobs: 1 (f=1): [R(1),_(4)][100.0%][r=231MiB/s][r=59.1k IOPS][eta 00m:00s]
+Job number 6 started at 20220504_2357
+Jobs: 1 (f=1): [_(5),R(1)][99.6%][r=172MiB/s][r=44.1k IOPS][eta 00m:01s]
+Job number 7 started at 20220505_0001
+Jobs: 2 (f=1): [_(4),R(1),f(1),_(1)][100.0%][r=498MiB/s][r=127k IOPS][eta 00m:00s]
+Job number 8 started at 20220505_0006
+Jobs: 2 (f=2): [_(4),R(2),_(2)][99.7%][r=355MiB/s][r=91.0k IOPS][eta 00m:01s]
+Job number 9 started at 20220505_0011
+Jobs: 1 (f=0): [f(1),_(8)][100.0%][r=294MiB/s][r=75.2k IOPS][eta 00m:00s]
+Job number 10 started at 20220505_0017
+Jobs: 1 (f=1): [_(9),R(1)][99.3%][r=249MiB/s][r=63.8k IOPS][eta 00m:03s]
+Starting randread ramp up test for the ultra1 blocksize 4k at 20220505_0024
+Job number 1 started at 20220505_0024
+Jobs: 1 (f=1): [r(1)][100.0%][r=252MiB/s][r=64.5k IOPS][eta 00m:00s]
+Job number 2 started at 20220505_0026
+Jobs: 1 (f=1): [_(1),r(1)][98.8%][r=369MiB/s][r=94.5k IOPS][eta 00m:01s]
+Job number 3 started at 20220505_0027
+Jobs: 2 (f=2): [_(1),r(2)][100.0%][r=524MiB/s][r=134k IOPS][eta 00m:00s]
+Job number 4 started at 20220505_0029
+Jobs: 1 (f=1): [_(1),r(1),_(2)][99.4%][r=321MiB/s][r=82.1k IOPS][eta 00m:01s]
+Job number 5 started at 20220505_0032
+Jobs: 1 (f=1): [_(3),r(1),_(1)][100.0%][r=485MiB/s][r=124k IOPS][eta 00m:00s]
+Job number 6 started at 20220505_0035
+Jobs: 1 (f=0): [_(5),f(1)][100.0%][r=349MiB/s][r=89.4k IOPS][eta 00m:00s]
+Job number 7 started at 20220505_0039
+Jobs: 1 (f=1): [r(1),_(6)][100.0%][r=245MiB/s][r=62.7k IOPS][eta 00m:00s]
+Job number 8 started at 20220505_0044
+Jobs: 1 (f=1): [_(7),r(1)][99.7%][r=348MiB/s][r=89.0k IOPS][eta 00m:01s]
+Job number 9 started at 20220505_0049
+Jobs: 1 (f=1): [_(1),r(1),_(7)][100.0%][r=127MiB/s][r=32.6k IOPS][eta 00m:00s]
+Job number 10 started at 20220505_0055
+Jobs: 1 (f=1): [_(6),r(1),_(3)][99.5%][r=324MiB/s][r=82.9k IOPS][eta 00m:02s]
+Starting read ramp up test for the zfs blocksize 4k at 20220505_0102
+Job number 1 started at 20220505_0102
+Jobs: 1 (f=1): [R(1)][100.0%][r=189MiB/s][r=48.3k IOPS][eta 00m:00s]
+Job number 2 started at 20220505_0104
+Jobs: 2 (f=2): [R(2)][100.0%][r=144MiB/s][r=37.0k IOPS][eta 00m:00s]
+Job number 3 started at 20220505_0108
+Jobs: 3 (f=3): [R(3)][100.0%][r=155MiB/s][r=39.6k IOPS][eta 00m:00s]
+Job number 4 started at 20220505_0114
+Jobs: 4 (f=4): [R(4)][100.0%][r=158MiB/s][r=40.5k IOPS][eta 00m:00s]
+Job number 5 started at 20220505_0122
+Jobs: 5 (f=5): [R(5)][100.0%][r=153MiB/s][r=39.1k IOPS][eta 00m:00s]
+Job number 6 started at 20220505_0132
+Jobs: 6 (f=6): [R(6)][100.0%][r=154MiB/s][r=39.5k IOPS][eta 00m:00s]
+Job number 7 started at 20220505_0142
+Jobs: 7 (f=7): [R(7)][100.0%][r=155MiB/s][r=39.6k IOPS][eta 00m:00s]
+Job number 8 started at 20220505_0153
+Jobs: 8 (f=8): [R(8)][100.0%][r=152MiB/s][r=39.0k IOPS][eta 00m:00s]
+Job number 9 started at 20220505_0203
+Jobs: 9 (f=9): [R(9)][100.0%][r=183MiB/s][r=46.9k IOPS][eta 00m:00s]
+Job number 10 started at 20220505_0213
+Jobs: 10 (f=0): [f(10)][100.0%][r=146MiB/s][r=37.4k IOPS][eta 00m:00s]
+Starting randread ramp up test for the zfs blocksize 4k at 20220505_0223
+Job number 1 started at 20220505_0223
+Jobs: 1 (f=1): [r(1)][100.0%][r=136MiB/s][r=34.8k IOPS][eta 00m:00s]
+Job number 2 started at 20220505_0225
+Jobs: 1 (f=0): [f(1),_(1)][100.0%][r=154MiB/s][r=39.5k IOPS][eta 00m:00s]
+Job number 3 started at 20220505_0229
+Jobs: 3 (f=3): [r(3)][100.0%][r=176MiB/s][r=45.1k IOPS][eta 00m:00s]
+Job number 4 started at 20220505_0235
+Jobs: 1 (f=1): [_(3),r(1)][99.8%][r=178MiB/s][r=45.4k IOPS][eta 00m:01s]
+Job number 5 started at 20220505_0244
+Jobs: 5 (f=5): [r(5)][100.0%][r=172MiB/s][r=44.0k IOPS][eta 00m:00s]
+Job number 6 started at 20220505_0254
+Jobs: 6 (f=6): [r(6)][100.0%][r=165MiB/s][r=42.2k IOPS][eta 00m:00s]
+Job number 7 started at 20220505_0304
+Jobs: 7 (f=7): [r(7)][100.0%][r=153MiB/s][r=39.1k IOPS][eta 00m:00s]
+Job number 8 started at 20220505_0314
+Jobs: 8 (f=8): [r(8)][100.0%][r=157MiB/s][r=40.2k IOPS][eta 00m:00s]
+Job number 9 started at 20220505_0324
+Jobs: 9 (f=9): [r(9)][100.0%][r=151MiB/s][r=38.7k IOPS][eta 00m:00s]
+Job number 10 started at 20220505_0334
+Jobs: 10 (f=10): [r(10)][100.0%][r=152MiB/s][r=39.0k IOPS][eta 00m:00s]
+Starting read ramp up test for the standard1 blocksize 4k at 20220505_0344
+Job number 1 started at 20220505_0344
+Jobs: 1 (f=1): [R(1)][100.0%][r=64.9MiB/s][r=16.6k IOPS][eta 00m:00s]
+Job number 2 started at 20220505_0350
+Jobs: 2 (f=2): [R(2)][100.0%][r=65.3MiB/s][r=16.7k IOPS][eta 00m:00s]
+Job number 3 started at 20220505_0400
+Jobs: 3 (f=3): [R(3)][100.0%][r=65.6MiB/s][r=16.8k IOPS][eta 00m:00s]
+Job number 4 started at 20220505_0410
+Jobs: 4 (f=4): [R(4)][47.4%][r=64.1MiB/s][r=16.4k IOPS][eta 11m:06s]
+Job number 5 started at 20220505_0420
+Jobs: 5 (f=0): [f(5)][100.0%][r=60.6MiB/s][r=15.5k IOPS][eta 00m:00s]
+Job number 6 started at 20220505_0430
+Jobs: 6 (f=0): [f(6)][100.0%][r=63.2MiB/s][r=16.2k IOPS][eta 00m:00s]
+Job number 7 started at 20220505_0440
+Jobs: 7 (f=0): [f(7)][100.0%][r=65.0MiB/s][r=16.6k IOPS][eta 00m:00s]
+Job number 8 started at 20220505_0450
+Jobs: 8 (f=0): [f(8)][100.0%][r=56.2MiB/s][r=14.4k IOPS][eta 00m:00s]
+Job number 9 started at 20220505_0500
+Jobs: 9 (f=0): [f(9)][100.0%][r=65.2MiB/s][r=16.7k IOPS][eta 00m:00s]
+Job number 10 started at 20220505_0510
+Jobs: 10 (f=0): [f(10)][100.0%][r=61.8MiB/s][r=15.8k IOPS][eta 00m:00s]
+Starting randread ramp up test for the standard1 blocksize 4k at 20220505_0520
+Job number 1 started at 20220505_0520
+Jobs: 1 (f=0): [f(1)][100.0%][r=62.8MiB/s][r=16.1k IOPS][eta 00m:00s]
+Job number 2 started at 20220505_0525
+Jobs: 2 (f=0): [f(2)][100.0%][r=63.7MiB/s][r=16.3k IOPS][eta 00m:00s]
+Job number 3 started at 20220505_0535
