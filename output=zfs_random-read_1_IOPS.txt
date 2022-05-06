@@ -1,0 +1,2 @@
+Bad option <output-format=normal>
+fio: job global dropped
